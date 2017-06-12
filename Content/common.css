@@ -1,0 +1,102 @@
+﻿body, html {
+    padding : 0;
+    margin: 0;
+}
+
+body {
+    background: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    padding:1% 0 0 10%;
+}
+
+.text {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main-title-text-begin {
+    font-size: 160px;
+    padding-right:10px;
+}
+
+.main-title-text-end {
+    font-size: 150px;
+}
+
+.inner-title-text {
+    font-size: 120px;
+    padding:0;
+    margin:0;
+}
+
+.messageBox{
+    padding: 7px 10px;
+    border-radius: 5px;
+    outline:0;
+    border:0;
+    width:100%;
+}
+
+#discussion{
+    color:#fff;
+    padding:10px 10px 10px 0;
+    font-size:16px;
+}
+
+.clear-right-padding{
+    padding-right:0;
+}
+
+.clear-side-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.chat-box{
+    margin:60px 50px;
+}
+
+.header {
+    color: #fff;
+    padding-left: 15px;
+}
+
+#current-user-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(51, 182, 121);
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px 6px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+#friend-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(231, 113, 27);
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px 6px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.user-message{
+    display:inline-block;
+}
+
+li{
+    list-style-type:none;
+    margin:10px 10px 10px 0;
+}
